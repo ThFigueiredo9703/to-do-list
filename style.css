@@ -2,4 +2,31 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #3e3e3e;
+  width: 500px;
+  margin: auto;
+}
+
+.container-task-add {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  background-color: #4e4e4e;
+  border-radius: 20px;
+  padding: 10px;
+  align-items: center;
+  button {
+    width: 150px;
+    padding: 2px;
+  }
+}
+
+input {
+  padding: 3px;
+  width: 300px;
 }

@@ -6,17 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
 </head>
 
 <body>
-    <div class="container-task-add">
+    <div class="container">
         <h1>Task List</h1>
-        <input class="task-input" type="text" placeholder="Insert task here...">
-        <input class="task-desc" type="text" placeholder="Task description">
-        <button>Add Task</button>
-    </div>
 
-    <div class="container-tasks">
+        <div class="add-task">
+            <input type="text" id="taskInput" placeholder="Insert task here...">
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <div class="task-list" id="taskList">
+            <!-- Tasks serão adicionadas aqui via JavaScript -->
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="task-list">
+            <div class="task">
+                <div class="task-content">Estudar JavaScript 💬</div>
+                <div class="task-buttons">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                    <button class="complete-btn">Complete</button>
+                </div>
+            </div>
+
+            <div class="task">
+                <div class="task-content">Estudar HTML</div>
+                <div class="task-buttons">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                    <button class="complete-btn">Complete</button>
+                </div>
+            </div>
+
+            <div class="task">
+                <div class="task-content">Estudar CSS</div>
+                <div class="task-buttons">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                    <button class="complete-btn">Complete</button>
+                </div>
+            </div>
+
+            <div class="task">
+                <div class="task-content">Fazer projeto final</div>
+                <div class="task-buttons">
+                    <button class="edit-btn">Edit</button>
+                    <button class="delete-btn">Delete</button>
+                    <button class="complete-btn">Complete</button>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
